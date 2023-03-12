@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infra.Data.Migrations
 {
     [DbContext(typeof(FundZerrennerContext))]
-    [Migration("20230312181353_campoposter")]
-    partial class campoposter
+    [Migration("20230312193048_MigrationM1")]
+    partial class MigrationM1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
